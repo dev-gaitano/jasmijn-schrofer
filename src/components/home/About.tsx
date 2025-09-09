@@ -13,7 +13,7 @@ const About = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-accent-more-muted via-transparent via-20% to-transparent pointer-events-none"></div>
 
       <div className="relative z-10 space-y-gap-lg">
-        <h2 className="text-3xl md:text-4xl">About Me</h2>
+        <h2 className="text-3xl md:text-4xl">About</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-center">
           {/* Image */}

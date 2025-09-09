@@ -67,7 +67,6 @@ const FeaturedFilm = () => {
             href="https://www.imdb.com/title/tt32920047/"
             target="_blank"
             className="group button-secondary font-serif italic max-md:text-sm"
-            data-text="Learn more"
           >
             Learn more
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 group-hover:text-secondary transition-transform duration-500" />

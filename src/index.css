@@ -103,21 +103,21 @@
     color: var(--primary);
   }
 
-  .nav-link::after {
-    content: "";
-    @apply absolute bottom-0 left-1/2 w-0 h-[1px] -translate-x-1/2;
-    background: linear-gradient(
-      to right,
-      transparent,
-      var(--primary),
-      transparent
-    );
-    transition: all 0.5s ease-in-out;
-  }
+  /*.nav-link::after {*/
+  /*content: "";*/
+  /*@apply absolute bottom-0 left-1/2 w-0 h-[1px] -translate-x-1/2;*/
+  /*background: linear-gradient(*/
+  /*to right,*/
+  /*transparent,*/
+  /*var(--primary),*/
+  /*transparent*/
+  /*);*/
+  /*transition: all 0.5s ease-in-out;*/
+  /*}*/
 
-  .nav-link:hover::after {
-    @apply w-full left-0 translate-x-0;
-  }
+  /*.nav-link:hover::after {*/
+  /*@apply w-full left-0 translate-x-0;*/
+  /*}*/
 
   .button-primary {
     @apply max-md:px-4 md:px-8 py-3 glass-panel;
@@ -136,11 +136,9 @@
   .button-primary::before {
     content: "";
     @apply absolute inset-0 opacity-0 transition-all duration-500;
-    background: radial-gradient(
-      circle,
-      var(--primary-more-muted),
-      transparent 80%
-    );
+    background: radial-gradient(circle,
+        var(--primary-more-muted),
+        transparent 80%);
   }
 
   /*I'm going to make the button glow from where it's being hovered.*/
@@ -174,6 +172,7 @@
     0% {
       transform: translateX(0);
     }
+
     100% {
       transform: translateX(-50%);
     }

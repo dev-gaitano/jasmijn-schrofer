@@ -94,13 +94,13 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="h-60 border-[0.5px] border-foreground-more-muted p-gap-sm md:p-gap-md rounded-xl space-y-gap-xxs md:space-y-gap-xs flex flex-col items-center md:items-start justify-center grow">
           <h3 className="text-3xl md:text-4xl text-center">
-            Let's Create Something Amazing
+            Let's Get in touch
           </h3>
 
           <div className="space-y-gap-xxs md:space-y-gap-xs text-foreground-muted">
             <div className="flex items-center md:items-start gap-gap-xxs md:gap-gap-xs">
               <Mail className="w-5 h-5 mt-0.5" />
-              <span>info@jasmijnschrofer.com</span>
+              <span>mail@jasmijnschrofer.com</span>
             </div>
 
             <div className="flex items-start gap-gap-xxs md:gap-gap-xs">
