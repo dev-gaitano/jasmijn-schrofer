@@ -37,10 +37,10 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed max-w-7xl top-0 z-[999] w-[calc(100%-var(--gap-md)*2)] mx-gap-md md:w-[1262px] transition-all duration-500 overflow-hidden ${isMobileMenuOpen
-          ? "rounded-3xl glass-panel top-2"
-          : isScrolled
-            ? "rounded-full glass-panel top-2"
-            : "rouded-3xl md:rounded-full"
+        ? "rounded-3xl glass-panel top-2"
+        : isScrolled
+          ? "rounded-full glass-panel top-2"
+          : "rouded-3xl md:rounded-full"
         }`}
     >
       <div className="w-full flex items-center justify-between p-gap-xs">
