@@ -14,11 +14,6 @@ const AboutPage = () => {
       <Navbar />
       <div className="flex-1">
         <section id="about" className="relative p-gap-md md:p-gap-xxl w-full">
-          {/* Background gradients */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary-more-muted via-transparent via-50% to-transparent pointer-events-none"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-secondary-more-muted via-transparent via-20% to-transparent pointer-events-none"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-primary-more-muted via-transparent via-50% to-transparent pointer-events-none"></div>
-
           <div className="relative z-10 space-y-gap-lg">
             <div className="mt-gap-xl md:mt-0 grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-center">
               {/* Image */}
