@@ -58,6 +58,7 @@
     "firebase-admin": "^13.4.0",
     "framer-motion": "^12.23.6",
     "gh-pages": "^6.3.0",
+    "gsap": "^3.13.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.462.0",
     "next-themes": "^0.3.0",

@@ -58,6 +58,11 @@
 }
 
 @layer components {
+  .layer-background {
+    position: sticky;
+    top: 0;
+  }
+
   .off-screen-right {
     @apply opacity-0 blur-lg translate-x-8;
     transition: all 0.3s ease-in-out;

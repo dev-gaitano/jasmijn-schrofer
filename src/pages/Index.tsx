@@ -1,38 +1,89 @@
+import { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/home/Hero";
+import Background from "@/components/Background";
 import Films from "@/components/home/Films";
 import Featured from "@/components/home/Featured";
 import About from "@/components/home/About";
 import Footer from "@/components/Footer";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Index = () => {
+  useEffect(() => {
+    gsap.utils.toArray<HTMLElement>(".layer").forEach(
+      (layer, i) => {
+        let depth = (i + 1) * 0.12;
+
+        if (layer.classList.contains("layer-hero")) {
+          depth = 0.15;
+        }
+
+        if (layer.classList.contains("layer-background")) {
+          depth = 0.5;
+        }
+
+        if (layer.classList.contains("layer-films")) {
+          depth = 3.8;
+        }
+
+        if (layer.classList.contains("layer-featured")) {
+          depth = 3;
+        }
+
+        if (layer.classList.contains("layer-about")) {
+          depth = 2.5;
+        }
+
+        if (layer.classList.contains("layer-footer")) {
+          depth = 2.5;
+        }
+
+        gsap.to(layer, {
+          scrollTrigger: {
+            trigger: ".parallax-container",
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true
+          },
+          y: () => -(window.innerHeight * depth),
+          ease: "none"
+        })
+      }
+    )
+  }, [])
+
   return (
-    <main className="w-full flex flex-col items-center">
+    <main className="w-full h-[3000px] flex flex-col items-center page-container">
       <Navbar />
-      <Parallax pages={2.76}>
-        <ParallaxLayer speed={0.5}>
-          <Hero />
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.99} speed={1.5}>
-          <div className="relative w-full">
-            <div className="absolute inset-0 bg-background pointer-events-none"></div>
-            <div className="hidden md:block absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-secondary-muted via-transparent via-20% to-transparent pointer-events-none"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-primary-muted via-transparent via-45% to-transparent pointer-events-none"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-primary-more-muted via-transparent via-50% to-transparent pointer-events-none"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-accent-more-muted via-transparent via-30% to-transparent pointer-events-none"></div>
 
-            <div className="relative flex flex-col items-center">
-              <Films />
-              <Featured />
-              <About />
-            </div>
-          </div>
-          <Footer />
-        </ParallaxLayer>
+      <section className="layer layer-hero w-full">
+        <Hero />
+      </section>
 
+      <section className="layer layer-background w-full">
+        <Background />
+      </section>
 
-      </Parallax>
+      <section className="layer layer-films">
+        <Films />
+      </section>
+
+      <section className="layer layer-featured w-full">
+        <Featured />
+      </section>
+
+      <section className="layer layer-about">
+        <About />
+      </section>
+
+      <section className="layer layer-footer w-full">
+        <Footer />
+      </section>
+
     </main>
   );
 };

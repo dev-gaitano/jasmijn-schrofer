@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative p-gap-md md:px-gap-xxl h-mscreen md:h-screen flex items-end md:items-center justify-center overflow-hidden w-full"
+      className="relative p-gap-md md:px-gap-xxl h-mscreen md:h-screen flex items-end md:items-center justify-center overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 w-full h-full">
