@@ -1,8 +1,9 @@
-import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from "react";
 
 import Navbar from "@/components/Navbar";
+import HeroBackground from "@/components/home/HeroBackground";
 import Hero from "@/components/home/Hero";
 import Background from "@/components/Background";
 import Films from "@/components/home/Films";
@@ -14,61 +15,32 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Index = () => {
   useEffect(() => {
-    gsap.utils.toArray<HTMLElement>(".layer").forEach(
-      (layer, i) => {
-        let depth = (i + 1) * 0.12;
-
-        if (layer.classList.contains("layer-hero")) {
-          depth = 0.15;
-        }
-
-        if (layer.classList.contains("layer-background")) {
-          depth = 0.5;
-        }
-
-        if (layer.classList.contains("layer-films")) {
-          depth = 3.8;
-        }
-
-        if (layer.classList.contains("layer-featured")) {
-          depth = 3;
-        }
-
-        if (layer.classList.contains("layer-about")) {
-          depth = 2.5;
-        }
-
-        if (layer.classList.contains("layer-footer")) {
-          depth = 2.5;
-        }
-
-        gsap.to(layer, {
-          scrollTrigger: {
-            trigger: ".parallax-container",
-            start: "top top",
-            end: "bottom bottom",
-            scrub: true
-          },
-          y: () => -(window.innerHeight * depth),
-          ease: "none"
-        })
-      }
-    )
-  }, [])
+    gsap.to(".animated", {
+      scrollTrigger: {
+        trigger: ".layer-bg-gradients",
+        scrub: true,
+      },
+      y: -200,
+    });
+  });
 
   return (
     <main className="w-full h-[3000px] flex flex-col items-center page-container">
       <Navbar />
 
-      <section className="layer layer-hero w-full">
+      <section className="layer layer-hero-bg w-full">
+        <HeroBackground />
+      </section>
+
+      <section className="layer layer-hero animated w-full">
         <Hero />
       </section>
 
-      <section className="layer layer-background w-full">
+      <section className="layer layer-bg-gradients animated w-full">
         <Background />
       </section>
 
-      <section className="layer layer-films">
+      <section className="layer layer-films animated">
         <Films />
       </section>
 
@@ -83,7 +55,6 @@ const Index = () => {
       <section className="layer layer-footer w-full">
         <Footer />
       </section>
-
     </main>
   );
 };

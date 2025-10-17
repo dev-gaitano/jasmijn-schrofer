@@ -68,7 +68,7 @@ const Films = () => {
   }, []);
 
   return (
-    <section id="films" className="relative p-gap-md md:p-gap-xxl w-full">
+    <section id="films" className="p-gap-md md:p-gap-xxl w-full">
       <div className="space-y-gap-lg relative z-10">
         <h2 className="hidden md:block text-3xl md:text-4xl">Featured Films</h2>
 
@@ -77,8 +77,9 @@ const Films = () => {
             <div
               key={film.id}
               ref={setRef(index)}
-              className={`relative group hover-lift space-y-gap-xs ${isOnScreen.has(index) ? "md:on-screen" : "md:off-screen-right"
-                }`}
+              className={`relative group hover-lift space-y-gap-xs ${
+                isOnScreen.has(index) ? "md:on-screen" : "md:off-screen-right"
+              }`}
               style={{ animationDelay: `${index * 200}ms` }}
               onMouseEnter={() => setHoveredFilm(film.id)}
               onMouseLeave={() => setHoveredFilm(null)}

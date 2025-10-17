@@ -7,7 +7,7 @@ const About = () => {
     "https://res.cloudinary.com/diwkfbsgv/image/upload/c_auto,f_auto,g_auto,q_auto:eco/v1/schrofer/jasmijn-masterclass?_a=BAMAK+Go0";
 
   return (
-    <section id="about" className="relative p-gap-md md:p-gap-xxl w-full">
+    <section id="about" className="p-gap-md md:p-gap-xxl w-full">
       <div className="relative z-10 space-y-gap-lg">
         <h2 className="text-3xl md:text-4xl">About</h2>
 

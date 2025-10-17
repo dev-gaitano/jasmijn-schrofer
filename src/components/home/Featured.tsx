@@ -36,7 +36,7 @@ const FeaturedFilm = () => {
 
   return (
     <section
-      className="w-full h-[50vh] md:h-screen bg-center bg-cover flex flex-col justify-center md:justify-end items-center relative p-gap-md md:p-gap-xxl"
+      className="w-full h-[50vh] md:h-screen bg-center bg-cover flex flex-col justify-center md:justify-end items-center p-gap-md md:p-gap-xxl"
       style={{ backgroundImage: `url(${film.thumbnail})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-t from-background-muted via-transparent via-50% to-transparent pointer-events-none"></div>
@@ -66,7 +66,7 @@ const FeaturedFilm = () => {
           <a
             href="https://www.imdb.com/title/tt32920047/"
             target="_blank"
-            className="hidden sm:block group button-secondary font-serif italic max-md:text-sm"
+            className="hidden sm:flex group button-secondary font-serif italic max-md:text-sm"
           >
             Learn more
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 group-hover:text-secondary transition-transform duration-500" />

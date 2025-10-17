@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="relative p-gap-md md:p-gap-xxl w-full">
+    <footer className="p-gap-md md:p-gap-xxl w-full">
       <div className="pb-gap-lg space-y-gap-sm md:space-y-0 grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-center">
         <div className="h-60 flex flex-col md:flex-row gap-gap-lg">
           {/* Brand */}

@@ -58,9 +58,43 @@
 }
 
 @layer components {
-  .layer-background {
+  .layer-hero-bg {
+    background-image: url("https://res.cloudinary.com/diwkfbsgv/image/upload/v1755774116/jasmijn-unmask-2025-crop-min_cekt3y.png");
+    background-size: cover;
+    background-position: top left;
+  }
+
+  .layer-hero {
+    position: relative;
+    bottom: 948px;
+    height: 0;
+  }
+
+  .layer-bg-gradients {
     position: sticky;
     top: 0;
+    padding: 0;
+  }
+
+  .layer-films {
+    position: relative;
+    bottom: 948px;
+    height: 0;
+  }
+
+  .layer-featured {
+    position: relative;
+    top: 120px;
+  }
+
+  .layer-about {
+    position: relative;
+    top: 120px;
+  }
+
+  .layer-footer {
+    position: relative;
+    top: 120px;
   }
 
   .off-screen-right {
@@ -108,22 +142,6 @@
     color: var(--primary);
   }
 
-  /*.nav-link::after {*/
-  /*content: "";*/
-  /*@apply absolute bottom-0 left-1/2 w-0 h-[1px] -translate-x-1/2;*/
-  /*background: linear-gradient(*/
-  /*to right,*/
-  /*transparent,*/
-  /*var(--primary),*/
-  /*transparent*/
-  /*);*/
-  /*transition: all 0.5s ease-in-out;*/
-  /*}*/
-
-  /*.nav-link:hover::after {*/
-  /*@apply w-full left-0 translate-x-0;*/
-  /*}*/
-
   .button-primary {
     @apply max-md:px-4 md:px-8 py-3 glass-panel;
     border: 1px solid var(--primary);
@@ -141,12 +159,13 @@
   .button-primary::before {
     content: "";
     @apply absolute inset-0 opacity-0 transition-all duration-500;
-    background: radial-gradient(circle,
-        var(--primary-more-muted),
-        transparent 80%);
+    background: radial-gradient(
+      circle,
+      var(--primary-more-muted),
+      transparent 80%
+    );
   }
 
-  /*I'm going to make the button glow from where it's being hovered.*/
   .button-primary:hover::before {
     @apply opacity-70;
   }
