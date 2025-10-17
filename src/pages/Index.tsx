@@ -44,15 +44,15 @@ const Index = () => {
         <Films />
       </section>
 
-      <section className="layer layer-featured w-full">
+      <section className="layer layer-featured relative top-[1200px] md:top-32 w-full">
         <Featured />
       </section>
 
-      <section className="layer layer-about">
+      <section className="layer layer-about relative top-[1200px] md:top-32">
         <About />
       </section>
 
-      <section className="layer layer-footer w-full">
+      <section className="layer layer-footer relative top-[1200px] md:top-32 w-full">
         <Footer />
       </section>
     </main>

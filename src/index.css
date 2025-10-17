@@ -82,21 +82,6 @@
     height: 0;
   }
 
-  .layer-featured {
-    position: relative;
-    top: 120px;
-  }
-
-  .layer-about {
-    position: relative;
-    top: 120px;
-  }
-
-  .layer-footer {
-    position: relative;
-    top: 120px;
-  }
-
   .off-screen-right {
     @apply opacity-0 blur-lg translate-x-8;
     transition: all 0.3s ease-in-out;
