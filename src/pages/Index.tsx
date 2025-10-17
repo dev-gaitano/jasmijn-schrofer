@@ -32,7 +32,7 @@ const Index = () => {
         <HeroBackground />
       </section>
 
-      <section className="layer layer-hero animated w-full">
+      <section className="layer layer-hero animated relative bottom-[730px] md:bottom-[948px] h-0 w-full">
         <Hero />
       </section>
 
@@ -40,19 +40,19 @@ const Index = () => {
         <Background />
       </section>
 
-      <section className="layer layer-films animated">
+      <section className="layer layer-films animated relative bottom-[730px] md:bottom-[948px] h-0">
         <Films />
       </section>
 
-      <section className="layer layer-featured relative top-[1200px] md:top-32 w-full">
+      <section className="layer layer-featured relative top-[832px] md:top-32 w-full">
         <Featured />
       </section>
 
-      <section className="layer layer-about relative top-[1200px] md:top-32">
+      <section className="layer layer-about relative top-[832px] md:top-32">
         <About />
       </section>
 
-      <section className="layer layer-footer relative top-[1200px] md:top-32 w-full">
+      <section className="layer layer-footer relative top-[832px] md:top-32 w-full">
         <Footer />
       </section>
     </main>

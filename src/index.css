@@ -64,22 +64,10 @@
     background-position: top left;
   }
 
-  .layer-hero {
-    position: relative;
-    bottom: 948px;
-    height: 0;
-  }
-
   .layer-bg-gradients {
     position: sticky;
     top: 0;
     padding: 0;
-  }
-
-  .layer-films {
-    position: relative;
-    bottom: 948px;
-    height: 0;
   }
 
   .off-screen-right {
