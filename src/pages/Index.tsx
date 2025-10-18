@@ -36,7 +36,7 @@ const Index = () => {
         <Hero />
       </section>
 
-      <section className="layer layer-bg-gradients animated w-full">
+      <section className="layer layer-bg-gradients animated sticky top-0 w-full">
         <Background />
       </section>
 

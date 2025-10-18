@@ -64,12 +64,6 @@
     background-position: top left;
   }
 
-  .layer-bg-gradients {
-    position: sticky;
-    top: 0;
-    padding: 0;
-  }
-
   .off-screen-right {
     @apply opacity-0 blur-lg translate-x-8;
     transition: all 0.3s ease-in-out;
