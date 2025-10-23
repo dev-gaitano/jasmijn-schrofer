@@ -60,7 +60,7 @@
 A dynamic and visually engaging portfolio website built using React, specifically designed to showcase the creative work of acclaimed film director Jasmijn Schrofer.
 
 Project Link:
-[Jasmijn Schrofer Portfolio](https://jasmijnschrofer.vercel.app/)
+[Jasmijn Schrofer Portfolio](https://www.jasmijnschrofer.com/)
 
 Documentation:
 [Jasmijn Schrofer Docs](https://jasmijn-docs.vercel.app/)
