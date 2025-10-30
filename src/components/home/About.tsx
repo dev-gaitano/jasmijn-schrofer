@@ -11,7 +11,7 @@ const About = () => {
       <div className="relative z-10 space-y-gap-lg">
         <h2 className="text-3xl md:text-4xl">About</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-start">
           {/* Image */}
           <div className="aspect-[3/4] rounded-xl overflow-hidden">
             <img

@@ -64,7 +64,7 @@ const FilmGrid = () => {
 
   return (
     <section className="w-full p-gap-md md:p-gap-xxl space-y-gap-lg">
-      <div className="space-y-gap-xs text-right">
+      <div className="space-y-gap-xs">
         <h2 className="text-3xl md:text-4xl">Films</h2>
         <p className="hidden md:block text-foreground-muted">
           A collection of award-winning short films exploring themes of culture,
