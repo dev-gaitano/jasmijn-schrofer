@@ -19,12 +19,13 @@ export default {
     },
     extend: {
       screens: {
-        xs: "430px",
+        xxs: "393px",
+        xs: "428px",
         sm: "640px",
         md: "768px",
         lg: "1024px",
         xl: "1280px",
-        "2xl": "1536px",
+        xxl: "1536px",
       },
       height: {
         mscreen: "100svh",

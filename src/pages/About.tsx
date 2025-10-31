@@ -36,7 +36,7 @@ const AboutPage = () => {
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">Intro</h2>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     I’m Jasmijn, a filmmaker who paints with light and motion.
                     My playground stretches from 16 mm grain to bleeding-edge
                     LED volumes, from quiet living-room documentaries to
@@ -52,12 +52,12 @@ const AboutPage = () => {
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">Bio</h2>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     Raised between the low-tide silence of the Dutch coast and
                     the kaleidoscopic chaos of Istanbul’s bazaars, I learned
                     early that stories are passports.
                   </p>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     After graduating from the Netherlands Film Academy with{" "}
                     <span className="font-serif italic font-bold">
                       Tarikat—a dream-soaked short that went on to screen at 47
@@ -70,7 +70,7 @@ const AboutPage = () => {
                     Haaland’s heartbeat in 1000 fps, every project is an
                     excavation of wonder.
                   </p>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     I spent a decade directing over 50 commissioned works for
                     VPRO, Manchester City, El País, the Holland Festival, and
                     others. Whether I’m following a Sufi apprentice,
@@ -94,17 +94,17 @@ const AboutPage = () => {
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">My Process</h2>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     Pre-production is archaeology: I dig for the emotional
                     fossils no one else noticed. On set, I treat the camera like
                     a dance partner—hand-held, breath-synced, always one step
                     ahead of the moment.
                   </p>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     In post, I swap lenses for timelines, sculpting sound design
                     and color until the footage begins to dream on its own.
                   </p>
-                  <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     The goal is never a “look”; it’s a feeling that lingers like
                     perfume in an empty room.
                   </p>
@@ -115,7 +115,7 @@ const AboutPage = () => {
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">Awards</h2>
-                  <ul className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <ul className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     <li>Blue Planet Grant – Busan, Korea (Birth of Light)</li>
                     <li>
                       Golden Calf Nominee – Netherlands Film Festival (Birth of
@@ -140,7 +140,7 @@ const AboutPage = () => {
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">Upcoming Screenings</h2>
-                  <ul className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+                  <ul className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                     <li>
                       Cannes Directors’ Fortnight – Birth of Light (feature
                       sneak-peek) – 18 May 2026

@@ -7,7 +7,7 @@ const About = () => {
     "https://res.cloudinary.com/diwkfbsgv/image/upload/c_auto,f_auto,g_auto,q_auto:eco/v1/schrofer/jasmijn-masterclass?_a=BAMAK+Go0";
 
   return (
-    <section id="about" className="p-gap-md md:p-gap-xxl w-full">
+    <section id="about" className="p-gap-md md:p-gap-xl xl:p-gap-xxl w-full">
       <div className="relative z-10 space-y-gap-lg">
         <h2 className="text-3xl md:text-4xl">About</h2>
 
@@ -27,14 +27,14 @@ const About = () => {
             <div
               className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
             >
-              <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed">
+              <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
                 For over 15 years, I have painted with light and motion,
                 crafting cinematic tapestries that transcend borders and speak
                 the universal language of emotion. My work—spanning film,
                 television, and the creative arts—is a journey through visual
                 poetry, cultural metamorphosis, and immersive storytelling.
               </p>
-              <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed max-md:hidden">
+              <p className="text-lg text-foreground-muted leading-relaxed hidden lg:block">
                 Among my creations,{" "}
                 <span className="font-serif italic font-bold">
                   Birth of Light
@@ -48,7 +48,7 @@ const About = () => {
                 international festivals—a testament to my dedication to stories
                 that linger in the heart long after the screen fades to black.
               </p>
-              <p className="max-md:text-sm md:text-lg text-foreground-muted leading-relaxed max-md:hidden">
+              <p className="text-lg text-foreground-muted leading-relaxed hidden xl:block">
                 With over 50 commissioned projects for visionaries like VPRO,
                 Manchester City, El País, and Holland Festival. From intimate
                 documentaries to bold visual experiments, every project is a new
@@ -110,7 +110,7 @@ const About = () => {
             </div>
 
             {/* Expertise */}
-            <div className="space-y-gap-xs">
+            <div className="space-y-gap-xs md:hidden xl:block">
               <h3 className="text-xl">Expertise</h3>
               <div className="flex flex-wrap gap-gap-xxs">
                 {[

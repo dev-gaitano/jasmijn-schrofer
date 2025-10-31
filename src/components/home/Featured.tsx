@@ -36,12 +36,12 @@ const FeaturedFilm = () => {
 
   return (
     <section
-      className="w-full h-[50vh] md:h-screen bg-center bg-cover flex flex-col justify-center md:justify-end items-center p-gap-md md:p-gap-xxl"
+      className="w-full h-[50vh] md:h-screen bg-center bg-cover flex flex-col justify-center md:justify-end items-center p-gap-md md:p-gap-xl lg:p-gap-xxl"
       style={{ backgroundImage: `url(${film.thumbnail})` }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-background-muted via-transparent via-50% to-transparent pointer-events-none"></div>
+      <div className="z-0 absolute inset-0 bg-gradient-to-t from-background via-transparent via-50% to-transparent pointer-events-none"></div>
       {/* Content */}
-      <div className="flex flex-col items-center text-center w-full md:w-[60%] space-y-gap-sm md:space-y-gap-md">
+      <div className="z-10 flex flex-col items-center text-center w-full md:w-[60%] space-y-gap-sm md:space-y-gap-md">
         <div className="space-y-gap-xxs md:space-y-gap-md">
           <h2 className="text-3xl md:text-4xl lg:text-5xl flex flex-col observed delay-100">
             <span className="md:hidden">Latest Project</span>
@@ -49,7 +49,7 @@ const FeaturedFilm = () => {
             <span>{film.title}</span>{" "}
           </h2>
 
-          <p className="text-foreground-muted max-md:text-sm md:text-lg observed delay-300">
+          <p className="text-foreground-muted text-sm md:text-lg observed delay-300">
             {film.description}{" "}
           </p>
         </div>
