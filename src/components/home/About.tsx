@@ -28,11 +28,13 @@ const About = () => {
               className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
             >
               <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                For over 15 years, I have painted with light and motion,
-                crafting cinematic tapestries that transcend borders and speak
-                the universal language of emotion. My work—spanning film,
-                television, and the creative arts—is a journey through visual
-                poetry, cultural metamorphosis, and immersive storytelling.
+                With over 15 years of experience, I’ve directed and edited films
+                across Europe, Africa, and Asia, combining poetic imagery with
+                conceptual depth. My work explores how people, behavior,
+                environment, and culture intertwine, revealing overlooked
+                patterns in our world. My films Tarikat and Birth of Light have
+                received international recognition, earning awards from
+                Sheffield DocFest and VPRO, and receiving a Vimeo Staff Pick.
               </p>
               <p className="text-lg text-foreground-muted leading-relaxed hidden lg:block">
                 Among my creations,{" "}
@@ -80,7 +82,7 @@ const About = () => {
                 <div className="text-2xl font-bold">
                   <CountUp
                     from={0}
-                    to={8}
+                    to={11}
                     separator=","
                     direction="up"
                     duration={1}
@@ -95,7 +97,7 @@ const About = () => {
                 <div className="text-2xl font-bold flex items-center justify-center gap-1">
                   <CountUp
                     from={0}
-                    to={15}
+                    to={60}
                     separator=","
                     direction="up"
                     duration={1}
@@ -104,7 +106,7 @@ const About = () => {
                   <p>+</p>
                 </div>
                 <div className="text-sm text-foreground-more-muted">
-                  Years Experience
+                  Screenings worldwide
                 </div>
               </div>
             </div>
@@ -114,10 +116,11 @@ const About = () => {
               <h3 className="text-xl">Expertise</h3>
               <div className="flex flex-wrap gap-gap-xxs">
                 {[
+                  "Directing",
+                  "Editing",
                   "Documentaries",
-                  "Narrative Films",
+                  "Dance Films",
                   "Short & Feature Films",
-                  "Experimental Films",
                 ].map((skill) => (
                   <span
                     key={skill}

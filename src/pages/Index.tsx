@@ -32,7 +32,7 @@ const Index = () => {
         <HeroBackground />
       </section>
 
-      <section className="layer layer-hero animated relative xxs:bottom-[852px] xs:bottom-[926px] md:bottom-[1024px] lg:bottom-[768px] xl:bottom-[900px] h-0 w-full">
+      <section className="layer layer-hero animated relative xxs:bottom-[852px] xs:bottom-[926px] md:bottom-[1024px] lg:bottom-[768px] xl:bottom-[900px] xxl:bottom-[1080px] h-0 w-full">
         <Hero />
       </section>
 
@@ -40,19 +40,19 @@ const Index = () => {
         <Background />
       </section>
 
-      <section className="layer layer-films animated relative xxs:bottom-[852px] xs:bottom-[926px] md:bottom-[1024px] lg:bottom-[768px] xl:bottom-[900px] h-0">
+      <section className="layer layer-films animated relative xxs:bottom-[852px] xs:bottom-[926px] md:bottom-[1024px] lg:bottom-[768px] xl:bottom-[900px] xxl:bottom-[1080px] h-0">
         <Films />
       </section>
 
-      <section className="layer layer-featured relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-32 w-full">
+      <section className="layer layer-featured relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-28 xxl:-top-14 w-full">
         <Featured />
       </section>
 
-      <section className="layer layer-about relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-32">
+      <section className="layer layer-about relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-28 xxl:-top-14">
         <About />
       </section>
 
-      <section className="layer layer-footer relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-32 w-full">
+      <section className="layer layer-footer relative xxs:top-[852px] xs:top-[926px] md:top-28 lg:-top-56 xl:-top-28 xxl:-top-14 w-full">
         <Footer />
       </section>
     </main>

@@ -27,19 +27,11 @@ const Hero = () => {
             Film Director
           </p>
           <p
-            className={`hidden xl:block max-w-xl text-sm md:text-lg text-foreground-more-muted observed ${isOnScreen ? "on-screen" : "off-screen-top"} delay-500`}
+            className={`md:max-w-lg xl:max-w-xl text-sm md:text-lg text-foreground-more-muted observed ${isOnScreen ? "on-screen" : "off-screen-right"} delay-500`}
           >
-            A Dutch/Chinese American film director based in Amsterdam, renowned
-            for visually poetic storytelling and exploration of profound themes.
-            My work often intertwines themes of spirituality, culture, and human
-            connection.
-          </p>
-
-          <p
-            className={`xl:hidden md:max-w-lg text-sm md:text-lg text-foreground-more-muted observed ${isOnScreen ? "on-screen" : "off-screen-right"} delay-500`}
-          >
-            A Dutch/Chinese American film director, renowned for visually poetic
-            storytelling and exploration of profound themes.
+            I’m a multicultural filmmaker based in Amsterdam and Nairobi. From
+            concepts to cinematic worlds, I create visually poetic experiences
+            that invite reflection.
           </p>
         </div>
 

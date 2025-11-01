@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div className="h-60 border-[0.5px] border-foreground-more-muted p-gap-sm md:p-gap-md rounded-xl space-y-gap-xxs md:space-y-gap-xs flex flex-col items-center md:items-start justify-center grow">
-          <h3 className="text-3xl md:text-4xl text-center">Get in touch</h3>
+          <h3 className="text-3xl md:text-4xl text-center">Contact</h3>
 
           <div className="space-y-gap-xxs md:space-y-gap-xs text-foreground-muted">
             <div className="flex items-center md:items-start gap-gap-xxs md:gap-gap-xs">
@@ -57,7 +57,7 @@ const Footer = () => {
 
             <div className="flex items-start gap-gap-xxs md:gap-gap-xs">
               <MapPin className="w-5 h-5 mt-0.5" />
-              <span>Amsterdam, The Netherlands | Nairobi, Kenya</span>
+              <span>Amsterdam | Nairobi</span>
             </div>
           </div>
 

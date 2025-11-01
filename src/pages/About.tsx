@@ -31,59 +31,59 @@ const AboutPage = () => {
 
               {/* Content */}
               <div className="space-y-gap-md">
-                {/* Intro */}
-                <div
-                  className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
-                >
-                  <h2 className="text-3xl md:text-4xl">Intro</h2>
-                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                    I’m Jasmijn, a filmmaker who paints with light and motion.
-                    My playground stretches from 16 mm grain to bleeding-edge
-                    LED volumes, from quiet living-room documentaries to
-                    thunderous stadium spots. Wherever I point a lens, I’m
-                    chasing the same thing: that electric half-second where an
-                    image becomes an emotion and the viewer forgets the screen
-                    is even there.
-                  </p>
-                </div>
-
                 {/* Bio */}
                 <div
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
                   <h2 className="text-3xl md:text-4xl">Bio</h2>
                   <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                    Raised between the low-tide silence of the Dutch coast and
-                    the kaleidoscopic chaos of Istanbul’s bazaars, I learned
-                    early that stories are passports.
+                    After graduating from the Netherlands Film Academy in 2015,
+                    where I specialized in documentary directing, I’ve directed
+                    projects across Europe, Africa, and Asia, while developing a
+                    visual language that values rhythm, texture, and emotion as
+                    much as narrative.
                   </p>
                   <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                    After graduating from the Netherlands Film Academy with{" "}
+                    My short film{" "}
                     <span className="font-serif italic font-bold">
-                      Tarikat—a dream-soaked short that went on to screen at 47
-                      festivals—
+                      Birth of Light
                     </span>
-                    I spent a decade directing over 50 commissioned works for
-                    VPRO, Manchester City, El País, the Holland Festival, and
-                    others. Whether I’m following a Sufi apprentice,
-                    choreographing light for an opera stage, or capturing Erling
-                    Haaland’s heartbeat in 1000 fps, every project is an
-                    excavation of wonder.
+                    , shot in Northern Kenya, was selected for the Golden Calf
+                    Competition and Forum of Directors at the Netherlands Film
+                    Festival and received the Blue Planet Future Award in Korea.
+                    My graduation film{" "}
+                    <span className="font-serif italic font-bold">Tarikat</span>
+                    , about a Turkish sufi community reached audiences
+                    worldwide, earning multiple festival awards and over 50,000
+                    views online
                   </p>
                   <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                    I spent a decade directing over 50 commissioned works for
-                    VPRO, Manchester City, El País, the Holland Festival, and
-                    others. Whether I’m following a Sufi apprentice,
-                    choreographing light for an opera stage, or capturing Erling
-                    Haaland’s heartbeat in 1000 fps, every project is an
-                    excavation of wonder.{" "}
-                    <span className="font-serif italic font-bold">
-                      Birth of Light,
-                    </span>{" "}
-                    earned the Blue Planet Grant in Korea, a Golden Calf
-                    nomination, and the Forum van de Regisseurs prize—proof,
-                    perhaps, that when you dig deep enough, the personal becomes
-                    universal.
+                    My commissioned work includes over 100 projects for
+                    organizations such as{" "}
+                    <span className="italic font-bold">
+                      VPRO, El País, Kenya Scouts, African Development Bank,
+                      Manchester City FC, Holland Festival, and Artis Amsterdam
+                    </span>
+                    , covering subjects from sustainability to art and culture
+                    industry. Whether collaborating with communities, brands, or
+                    creative institutions, I approach each project as an
+                    opportunity to build bridges, connect cultures, and invite
+                    reflection on unshared realities
+                  </p>
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
+                    I’m currently developing Death of Darkness, the sequel to
+                    Birth of Light, set in the sleepless megacities of East Asia
+                    - continuing my exploration into humanity’s evolving
+                    relationship with light. Like other projects, my films often
+                    begin from concepts that uncover overlooked or
+                    non-mainstream perspectives, combined with creating
+                    cinematic and immersive experiences. Living between
+                    Amsterdam and Nairobi continues to shape how I see and want
+                    to tell stories.
+                  </p>
+                  <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
+                    I’m always open to new creative collaborations and artistic
+                    exchange worldwide.
                   </p>
                 </div>
               </div>

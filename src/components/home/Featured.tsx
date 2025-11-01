@@ -44,8 +44,7 @@ const FeaturedFilm = () => {
       <div className="z-10 flex flex-col items-center text-center w-full md:w-[60%] space-y-gap-sm md:space-y-gap-md">
         <div className="space-y-gap-xxs md:space-y-gap-md">
           <h2 className="text-3xl md:text-4xl lg:text-5xl flex flex-col observed delay-100">
-            <span className="md:hidden">Latest Project</span>
-            <span className="hidden md:block">Discover My Latest Film</span>
+            <span>Latest Project</span>
             <span>{film.title}</span>{" "}
           </h2>
 
