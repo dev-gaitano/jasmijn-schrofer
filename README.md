@@ -17,9 +17,6 @@ A dynamic and visually engaging portfolio website built using React, specificall
 Project Link:
 [Jasmijn Schrofer Portfolio](https://www.jasmijnschrofer.com/)
 
-Documentation:
-[Jasmijn Schrofer Docs](https://jasmijn-docs.vercel.app/)
-
 ### Project Structure
 
 ```
