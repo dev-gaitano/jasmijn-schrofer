@@ -7,29 +7,6 @@
 <br />
 <br />
 
-<!-- PROJECT SHIELDS -->
-<div align="center">
-
-  <a href="https://github.com/dev-gaitano/jasmijn-schrofer-frontend/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/dev-gaitano/jasmijn-schrofer-frontend.svg?style=for-the-badge" alt="Contributors">
-  </a>
-  <a href="https://github.com/dev-gaitano/jasmijn-schrofer-frontend/network/members">
-    <img src="https://img.shields.io/github/forks/dev-gaitano/jasmijn-schrofer-frontend.svg?style=for-the-badge" alt="Forks">
-  </a>
-  <a href="https://github.com/dev-gaitano/jasmijn-schrofer-frontend/stargazers">
-    <img src="https://img.shields.io/github/stars/dev-gaitano/jasmijn-schrofer-frontend.svg?style=for-the-badge" alt="Stars">
-  </a>
-  <a href="https://github.com/dev-gaitano/jasmijn-schrofer-frontend/issues">
-    <img src="https://img.shields.io/github/issues/dev-gaitano/jasmijn-schrofer-frontend.svg?style=for-the-badge" alt="Issues">
-  </a>
-  <a href="https://github.com/dev-gaitano/jasmijn-schrofer-frontend/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/dev-gaitano/jasmijn-schrofer-frontend.svg?style=for-the-badge" alt="License">
-  </a>
-
-</div>
-
-<br />
-<br />
 
 <!-- TABLE OF CONTENTS -->
 <details>
