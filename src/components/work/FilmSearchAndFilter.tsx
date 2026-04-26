@@ -80,7 +80,7 @@ const FilmSearchAndFilter = ({
           <SheetTrigger asChild>
             <Button
               size="sm"
-              className={`button-primary bg-background h-10 py-3 max-md:px-2 md:px-4 ${hasActiveFilters ? "text-primary-muted border-primary-muted" : "text-foreground-muted border-foreground-muted"} border-[0.5px] rounded-full hover-lift transition-all duration-500`}
+              className={`button-primary bg-background h-10 py-3 px-2 md:px-4 ${hasActiveFilters ? "text-primary-muted border-primary-muted" : "text-foreground-muted border-foreground-muted"} border-[0.5px] rounded-full hover-lift transition-all duration-500`}
             >
               <Filter className="w-4 h-4 mr-1" />
               Filters

@@ -64,6 +64,11 @@
     background-position: top left;
   }
 
+  .off-screen-top {
+    @apply opacity-0 blur-lg -translate-y-8;
+    transition: all 0.3s ease-in-out;
+  }
+
   .off-screen-right {
     @apply opacity-0 blur-lg translate-x-8;
     transition: all 0.3s ease-in-out;
@@ -110,7 +115,7 @@
   }
 
   .button-primary {
-    @apply max-md:px-4 md:px-8 py-3 glass-panel;
+    @apply px-4 md:px-8 py-3 glass-panel;
     border: 1px solid var(--primary);
     border-radius: var(--b-radius-full);
     color: var(--primary);

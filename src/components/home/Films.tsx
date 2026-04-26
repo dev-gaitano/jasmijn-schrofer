@@ -68,7 +68,7 @@ const Films = () => {
   }, []);
 
   return (
-    <section id="films" className="p-gap-md md:p-gap-xxl w-full">
+    <section id="films" className="p-gap-md md:p-gap-xl xl:p-gap-xxl w-full">
       <div className="space-y-gap-lg relative z-10">
         <h2 className="hidden md:block text-3xl md:text-4xl">Featured Films</h2>
 

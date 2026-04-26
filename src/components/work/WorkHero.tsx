@@ -31,7 +31,7 @@ const WorkHero: React.FC<WorkHeroProps> = ({
         );
         const querySnapshot = await getDocs(filmsQuery);
         if (!mounted) return;
-        
+
         const fetchedFilms = querySnapshot.docs.map((doc) => ({
           id: doc.id,
           ...(doc.data() as FilmProjectProps),
@@ -43,7 +43,9 @@ const WorkHero: React.FC<WorkHeroProps> = ({
       }
     };
     fetchFilmsFromFirestore();
-    return () => { mounted = false; };
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   // Build items list from fetched films or fallback props
@@ -231,7 +233,7 @@ const WorkHero: React.FC<WorkHeroProps> = ({
             {activeItem?.category ?? category}
           </p>
           <p
-            className={`max-w-2xl max-md:text-sm md:text-lg text-foreground-more-muted observed ${
+            className={`max-w-2xl text-sm md:text-lg text-foreground-more-muted observed ${
               isOnScreen ? "on-screen" : "off-screen-right"
             } delay-500`}
           >

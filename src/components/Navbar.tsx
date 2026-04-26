@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
+import { Plus } from "lucide-react";
 
 const currentPath = window.location.pathname;
 
@@ -36,12 +37,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed max-w-7xl top-0 z-[999] w-[calc(100%-var(--gap-md)*2)] mx-gap-md md:w-[1262px] transition-all duration-500 overflow-hidden ${isMobileMenuOpen
-        ? "rounded-3xl glass-panel top-2"
-        : isScrolled
-          ? "rounded-full glass-panel top-2"
-          : "rouded-3xl md:rounded-full"
-        }`}
+      className={`fixed max-w-7xl top-0 z-[999] w-[calc(100%-var(--gap-md)*2)] md:w-[calc(100%-var(--gap-lg)*2)] xl:w-[1262px] mx-gap-md transition-all duration-500 overflow-hidden ${
+        isMobileMenuOpen
+          ? "rounded-3xl glass-panel top-2"
+          : isScrolled
+            ? "rounded-full glass-panel top-2"
+            : "rouded-3xl md:rounded-full"
+      }`}
     >
       <div className="w-full flex items-center justify-between p-gap-xs">
         <a
@@ -69,23 +71,26 @@ const Navbar = () => {
           </a>
           <a
             href="/work"
-            className={`nav-link hover-lift transition-all duration-500 ${currentPath === "/work" ? "text-primary font-bold" : ""
-              }`}
+            className={`nav-link hover-lift transition-all duration-500 ${
+              currentPath === "/work" ? "text-primary font-bold" : ""
+            }`}
           >
             Work
           </a>
           <a
             href="/about"
-            className={`nav-link hover-lift transition-all duration-500 ${currentPath === "/about" ? "text-primary font-bold" : ""
-              }`}
+            className={`nav-link hover-lift transition-all duration-500 ${
+              currentPath === "/about" ? "text-primary font-bold" : ""
+            }`}
           >
             About
           </a>
           {isScrolled ? (
             <a
               href="/contact"
-              className={`inline-block button-primary hover-lift animate-fadeIn ${currentPath === "/contact" ? "text-primary font-bold" : ""
-                }`}
+              className={`inline-block button-primary hover-lift animate-fadeIn ${
+                currentPath === "/contact" ? "text-primary font-bold" : ""
+              }`}
               style={{ animationDelay: "0.6s" }}
             >
               Contact
@@ -99,25 +104,16 @@ const Navbar = () => {
           {isMobileMenuOpen ? (
             <X className="w-8 h-8" />
           ) : (
-            <svg
-              className="w-8 h-8"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+            <Plus className="w-8 h-8" />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden transition-all duration-500 overflow-hidden ${isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-          }`}
+        className={`md:hidden transition-all duration-500 overflow-hidden ${
+          isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        }`}
       >
         <div className="flex flex-col items-start ml-2 p-gap-xs pt-0">
           <MobileNavLink href="/" onClick={() => setIsMobileMenuOpen(false)}>
