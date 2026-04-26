@@ -82,7 +82,7 @@ const PodcastCarousel = () => {
   return (
     <section
       id="podcast-section"
-      className="w-full mx-auto p-gap-md md:px-gap-xxl"
+      className="w-full mx-auto p-gap-md md:px-gap-xxl overflow-hidden"
     >
       <div className="space-y-gap-lg">
         {/* Header */}
