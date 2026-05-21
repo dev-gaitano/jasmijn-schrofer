@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import { useIsOnScreen } from "@/hooks/useOnScreen";
 import CountUp from "@/components/CountUp";
 
@@ -48,9 +49,9 @@ const About = () => {
 
             <a
               href="/about"
-              className="flex group button-secondary font-serif italic max-md:text-sm"
+              className="flex group button-secondary pl-0 font-serif italic max-md:text-sm"
             >
-              Read full bio
+              <span>Read full bio</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 group-hover:text-secondary transition-transform duration-500" />
             </a>
 
