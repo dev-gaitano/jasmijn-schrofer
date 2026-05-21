@@ -28,38 +28,31 @@ const About = () => {
               className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
             >
               <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                With over 15 years of experience, I’ve directed and edited films
-                across Europe, Africa, and Asia, combining poetic imagery with
-                conceptual depth. My work explores how people, behavior,
-                environment, and culture intertwine, revealing overlooked
-                patterns in our world. My films Tarikat and Birth of Light have
-                received international recognition, earning awards from
-                Sheffield DocFest and VPRO, and receiving a Vimeo Staff Pick.
-              </p>
-              <p className="text-lg text-foreground-muted leading-relaxed hidden lg:block">
-                Among my creations,{" "}
+                With over 15 years of experience, I’ve directed films across Europe,
+                Africa, and Asia, combining striking imagery with conceptual depth.
+                My work explores how people, behaviour, environment, and culture
+                intertwine over time, revealing overlooked patterns in the world
+                around us. My ritual-centred film
                 <span className="font-serif italic font-bold">
-                  Birth of Light
+                  Tarikat
                 </span>{" "}
-                shines brightly, honored at the Golden Calf Competition and the
-                Forum van de Regisseurs at the Netherlands Film Festival, and
-                crowned with the Blue Planet Grant Award in Korea. My graduation
-                film,
-                <span className="font-serif italic font-bold"> Tarikat</span>,
-                has echoed across screens worldwide, collecting accolades at
-                international festivals—a testament to my dedication to stories
-                that linger in the heart long after the screen fades to black.
+                received international recognition, including awards from Sheffield
+                DocFest and VPRO, and a Vimeo Staff Pick.
               </p>
               <p className="text-lg text-foreground-muted leading-relaxed hidden xl:block">
-                With over 50 commissioned projects for visionaries like VPRO,
-                Manchester City, El País, and Holland Festival. From intimate
-                documentaries to bold visual experiments, every project is a new
-                chapter in my exploration of storytelling’s boundless
-                possibilities. Through my lens, I seek to illuminate the threads
-                that bind us, weaving narratives that resonate deeply and
-                transcend the ordinary
+                Through both independent and commissioned work, I create films that
+                offer fresh perspectives, emotional resonance, and meaningful stories
+                for audiences, brands, and cultural partners seeking depth and impact.
               </p>
             </div>
+
+            <a
+              href="/about"
+              className="flex group button-secondary font-serif italic max-md:text-sm"
+            >
+              Read full bio
+              <ArrowRight className="h-4 w-4 group-hover:translate-x-1 group-hover:text-secondary transition-transform duration-500" />
+            </a>
 
             {/* Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-gap-sm">
@@ -120,7 +113,7 @@ const About = () => {
                   "Editing",
                   "Documentaries",
                   "Dance Films",
-                  "Short & Feature Films",
+                  "Short Films",
                 ].map((skill) => (
                   <span
                     key={skill}
