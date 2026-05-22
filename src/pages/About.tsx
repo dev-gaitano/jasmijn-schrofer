@@ -188,24 +188,51 @@ const AboutPage = () => {
                 <div
                   className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
                 >
-                  <h2 className="text-3xl md:text-4xl">Awards</h2>
+                  <h2 className="text-3xl md:text-4xl">Highlights & Accolades</h2>
                   <ul className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                    <li>Blue Planet Grant – Busan, Korea (Birth of Light)</li>
                     <li>
-                      Golden Calf Nominee – Netherlands Film Festival (Birth of
-                      Light)
+                      <span className="font-bold">
+                        Featured on Aeon
+                      </span>{" "}
+                      – Tarikat | Global Curated Philosophy & Culture Platform
                     </li>
                     <li>
-                      Forum van de Regisseurs Award – Netherlands Film Festival
+                      <span className="font-bold">
+                        Vimeo Staff Pick
+                      </span>{" "}
+                      – Tarikat
                     </li>
                     <li>
-                      Best Short Documentary – Hot Docs, Toronto (Tarikat)
+                      <span className="font-bold">
+                        Blue Planet Grant Award
+                      </span>{" "}
+                      – Busan, South Korea (Birth of Light)
                     </li>
                     <li>
-                      Student Academy Award – Gold – Los Angeles (Tarikat)
+                      <span className="font-bold">
+                        Golden Calf Competition & Forum of the Directors Nominee
+                      </span>{" "}
+                      – Netherlands Film Festival (Birth of Light)
                     </li>
-                    <li>CICAE Art Cinema Award – Karlovy Vary IFF</li>
-                    <li>Best Cinematography – Camerimage (Commercial Reel)</li>
+                    <li>
+                      <span className="font-bold">
+                        Audience Award
+                      </span>{" "}
+                      – Sheffield DocFest (Tarikat)
+                    </li>
+                    <li>
+                      <span className="font-bold">
+                        Wildcard Talent Grant
+                      </span>{" "}
+                      – Netherlands Film Fund (Tarikat)
+                    </li>
+                    <li>
+                      <span className="font-bold">
+                        Best Director & Best Editing Nominee
+                      </span>{" "}
+                      – Tel Aviv
+                      International Film Festivals (Tarikat)
+                    </li>
                   </ul>
                 </div>
               </div>
