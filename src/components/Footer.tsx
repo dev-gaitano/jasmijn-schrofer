@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="p-gap-md md:p-gap-xl xl:p-gap-xxl w-full">
+    <footer className="p-gap-md md:px-gap-xl xl:p-gap-xxl w-full">
       <div className="pb-gap-lg space-y-gap-sm md:space-y-0 grid grid-cols-1 md:grid-cols-2 gap-gap-lg items-center">
         {/* Brand */}
         <div className="w-full md:w-3/4 space-y-4 flex flex-col items-start justify-center">
@@ -25,29 +25,12 @@ const Footer = () => {
             </p>
           </div>
 
-          <p className="max-w-md">
-            Crafting visual narratives that challenge perspectives. Explore my
-            portfolio and discover the stories waiting to be told through film.
-          </p>
-
-          <div className="w-full space-y-gap-xs">
-            <h5 className="text-lg">Subscribe to my Newsletter</h5>
-            <div className="flex justify-between items-center gap-gap-xxs">
-              <input
-                className="h-6 pl-gap-xxs flex-grow bg-background border-b-[0.5px] border-foreground-muted placeholder-foreground-more-muted"
-                placeholder="Email"
-                type="email"
-              />
-              <button className="text-foreground-muted hover:text-primary transition-colors duration-500">
-                Subscribe
-              </button>
-            </div>
-          </div>
+          <p className="max-w-md">Open to global collaborations.</p>
         </div>
 
         {/* Contact Info */}
-        <div className="h-60 border-[0.5px] border-foreground-more-muted p-gap-sm md:p-gap-md rounded-xl space-y-gap-xxs md:space-y-gap-xs flex flex-col items-center md:items-start justify-center grow">
-          <h3 className="text-3xl md:text-4xl text-center">Contact</h3>
+        <div className="h-60 border-[0.5px] border-foreground-more-muted p-gap-sm md:p-gap-md rounded-xl space-y-gap-xxs md:space-y-gap-xs flex flex-col items-start justify-center grow">
+          <h3 className="text-3xl md:text-4xl">Contact</h3>
 
           <div className="space-y-gap-xxs md:space-y-gap-xs text-foreground-muted">
             <div className="flex items-center md:items-start gap-gap-xxs md:gap-gap-xs">
