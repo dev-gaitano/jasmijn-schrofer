@@ -26,6 +26,20 @@ const Footer = () => {
           </div>
 
           <p className="max-w-md">Open to global collaborations.</p>
+
+          <div className="w-full space-y-gap-xs">
+            <h5 className="text-lg">Subscribe to my Newsletter</h5>
+            <div className="flex justify-between items-center gap-gap-xxs">
+              <input
+                className="h-6 pl-gap-xxs flex-grow bg-background border-b-[0.5px] border-foreground-muted placeholder-foreground-more-muted"
+                placeholder="Email"
+                type="email"
+              />
+              <button className="text-foreground-muted hover:text-primary transition-colors duration-500">
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
 
         {/* Contact Info */}
