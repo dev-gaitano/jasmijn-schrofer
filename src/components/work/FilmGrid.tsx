@@ -11,8 +11,8 @@ const FilmGrid = () => {
   const [filters, setFilters] = useState({
     search: "",
     category: "",
-    yearRange: [2010, 2024] as [number, number],
-    runtimeRange: [0, 30] as [number, number],
+    yearRange: [2010, 2030] as [number, number],
+    runtimeRange: [0, 180] as [number, number],
   });
 
   useEffect(() => {
