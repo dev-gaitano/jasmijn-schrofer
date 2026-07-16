@@ -9,5 +9,6 @@ export interface FilmProjectProps {
   poster: string;
   thumbnail: string;
   trailer: string;
+  trailerLink: string;
   film: string;
 }

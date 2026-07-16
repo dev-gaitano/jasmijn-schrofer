@@ -77,9 +77,8 @@ const Films = () => {
             <div
               key={film.id}
               ref={setRef(index)}
-              className={`relative group hover-lift space-y-gap-xs ${
-                isOnScreen.has(index) ? "md:on-screen" : "md:off-screen-right"
-              }`}
+              className={`relative group hover-lift space-y-gap-xs ${isOnScreen.has(index) ? "md:on-screen" : "md:off-screen-right"
+                }`}
               style={{ animationDelay: `${index * 200}ms` }}
               onMouseEnter={() => setHoveredFilm(film.id)}
               onMouseLeave={() => setHoveredFilm(null)}
@@ -93,10 +92,15 @@ const Films = () => {
                 {hoveredFilm === film.id && (
                   <div className="absolute inset-0 bg-background-more-muted backdrop-blur-lg animate-fadeIn transition-all duration-500">
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-gap-md space-y-gap-xs">
-                      <button className="flex items-center gap-gap-xxs rounded-full glass-panel hover-lift px-gap-sm py-gap-xxs hover:bg-opacity-10 transition-all duration-500">
+                      <a
+                        href={film.trailerLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-gap-xxs rounded-full glass-panel hover-lift px-gap-sm py-gap-xxs hover:bg-opacity-10 transition-all duration-500"
+                      >
                         <Play className="w-4 h-4" />
                         Watch Trailer
-                      </button>
+                      </a>
                       <h3 className="text-xl">{film.title}</h3>
                       <p className="text-sm text-foreground-muted">
                         {film.description}
