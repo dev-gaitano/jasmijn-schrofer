@@ -55,7 +55,7 @@ const FeaturedFilm = () => {
 
         <div className="flex flex-wrap gap-[4px] md:gap-gap-xs observed delay-500">
           <a
-            href="https://vimeo.com/jasmijnschrofer"
+            href={film.film}
             target="_blank"
             className="inline-flex items-center justify-center max-md:text-sm button-primary max-md:h-12 hover-lift"
           >
