@@ -9,7 +9,7 @@ function HeroBackground() {
         <img
           src="https://res.cloudinary.com/diwkfbsgv/image/upload/c_auto,f_auto,g_auto,q_auto:eco/v1755774116/jasmijn-unmask-2025-crop-min_cekt3y.png"
           alt="hero-image"
-          className="absolute top-0 left-0 h-full object-cover xxs:object-[-22rem] xs:object-[-24rem] md:object-[-28rem] lg:object-[-10rem] xl:object-[-2rem]"
+          className="absolute top-0 left-0 h-full object-cover xxxs:object-[-15rem] xxs:object-[-22rem] xs:object-[-24rem] md:object-[-28rem] lg:object-[-10rem] xl:object-[-2rem]"
         />
         <div className="hidden md:block fixed top-0 right-0 h-screen w-[60vw] bg-gradient-to-l from-background via-transparent to-transparent"></div>
       </div>
