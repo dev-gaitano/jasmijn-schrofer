@@ -29,21 +29,23 @@ const About = () => {
               className={`prose prose-invert flex flex-col gap-gap-xs ${isOnScreen ? "off-screen-left -translate-x-0" : "on-screen"}`}
             >
               <p className="text-sm md:text-lg text-foreground-muted leading-relaxed">
-                With over 15 years of experience, I’ve directed films across Europe,
-                Africa, and Asia, combining striking imagery with conceptual depth.
-                My work explores how people, behaviour, environment, and culture
-                intertwine over time, revealing overlooked patterns in the world
-                around us. My ritual-centred film
+                With over 15 years of experience, I’ve directed films across
+                Europe, Africa, and Asia, combining striking imagery with
+                conceptual depth. My work explores how people, behaviour,
+                environment, and culture intertwine over time, revealing
+                overlooked patterns in the world around us. My ritual-centred
+                film
                 <span className="font-serif italic font-bold">
                   Tarikat
                 </span>{" "}
-                received international recognition, including awards from Sheffield
-                DocFest and VPRO, and a Vimeo Staff Pick.
+                received international recognition, including awards from
+                Sheffield DocFest and VPRO, and a Vimeo Staff Pick.
               </p>
               <p className="text-lg text-foreground-muted leading-relaxed hidden xl:block">
-                Through both independent and commissioned work, I create films that
-                offer fresh perspectives, emotional resonance, and meaningful stories
-                for audiences, brands, and cultural partners seeking depth and impact.
+                Through both independent and commissioned work, I create films
+                that offer fresh perspectives, emotional resonance, and
+                meaningful stories for audiences, brands, and cultural partners
+                seeking depth and impact.
               </p>
             </div>
 

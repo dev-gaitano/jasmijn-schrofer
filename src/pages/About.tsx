@@ -18,7 +18,6 @@ const AboutPage = () => {
       logo5: isMobile ? "h-12" : "h-16",
       logo6: isMobile ? "w-auto h-12" : "w-auto h-16",
       logo7: isMobile ? "h-12" : "h-16",
-      logo8: isMobile ? "h-12" : "h-16",
     };
 
     return (
@@ -149,10 +148,6 @@ const AboutPage = () => {
         <img
           className={sizeClasses.logo7}
           src="https://res.cloudinary.com/diwkfbsgv/image/upload/v1784220767/copy_of_icka_m4uawd.png"
-        />
-        <img
-          className={sizeClasses.logo8}
-          src="https://res.cloudinary.com/diwkfbsgv/image/upload/v1783760391/Kenya_Scouts_Association.svg_fkru41.webp"
         />
       </>
     );
