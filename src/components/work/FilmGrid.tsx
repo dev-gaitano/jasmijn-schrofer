@@ -107,9 +107,14 @@ const FilmGrid = () => {
                       <Clock className="w-4 h-4" />
                     </div>
                   </div>
-                  <div className="button-primary rounded-full absolute bottom-gap-xs right-gap-xs p-gap-xs">
+                  <a
+                    href={film.film}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button-primary rounded-full absolute bottom-gap-xs right-gap-xs p-gap-xs"
+                  >
                     <Play className="w-6 h-6 fill-current" />
-                  </div>
+                  </a>
                 </div>
               </div>
 
