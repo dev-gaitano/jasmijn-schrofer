@@ -226,16 +226,14 @@ const WorkHero: React.FC<WorkHeroProps> = ({
             />
           </h1>
           <p
-            className={`font-serif italic text-xl md:text-2xl text-foreground-muted observed ${
-              isOnScreen ? "on-screen" : "off-screen-right"
-            } delay-300`}
+            className={`font-serif italic text-xl md:text-2xl text-foreground-muted observed ${isOnScreen ? "on-screen" : "off-screen-right"
+              } delay-300`}
           >
             {activeItem?.category ?? category}
           </p>
           <p
-            className={`max-w-2xl text-sm md:text-lg text-foreground-more-muted observed ${
-              isOnScreen ? "on-screen" : "off-screen-right"
-            } delay-500`}
+            className={`max-w-2xl text-sm md:text-lg text-foreground-more-muted observed ${isOnScreen ? "on-screen" : "off-screen-right"
+              } delay-500`}
           >
             {activeItem?.description ?? description}
           </p>
@@ -252,9 +250,8 @@ const WorkHero: React.FC<WorkHeroProps> = ({
           </a>
           {/* Audio Control */}
           <button
-            className={`cursor-pointer ${
-              isMuted ? "text-foreground-more-muted" : "text-primary-muted"
-            } hover:text-primary-muted transition-all duration-500`}
+            className={`cursor-pointer ${isMuted ? "text-foreground-more-muted" : "text-primary-muted"
+              } hover:text-primary-muted transition-all duration-500`}
             onClick={toggleMute}
             aria-pressed={!isMuted}
             aria-label={isMuted ? "Unmute trailer" : "Mute trailer"}
