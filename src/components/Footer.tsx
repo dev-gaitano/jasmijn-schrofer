@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <p className="max-w-md">Open to global collaborations.</p>
+          <p className="max-w-md">Open to global collaborations</p>
 
           <div className="w-full space-y-gap-xs">
             <h5 className="text-lg">Subscribe to my Newsletter</h5>
