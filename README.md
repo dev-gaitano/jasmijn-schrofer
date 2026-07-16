@@ -20,7 +20,7 @@ Project Link:
 ### Project Structure
 
 ```
-jasmijn-schrofer-frontend/
+jasmijn-schrofer/
 ├── .git/                   # Git repository data
 ├── public/                 # Static files
 ├── src/                    # Source code
@@ -75,10 +75,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone git@github.com:dev-gaitano/jasmijn-schrofer-frontend.git
+git clone git@github.com:dev-gaitano/jasmijn-schrofer.git
 
 # Step 2: Navigate to the project directory.
-cd jasmijn-schrofer-frontend
+cd jasmijn-schrofer
 
 # Step 3: Install the necessary dependencies.
 npm i --legacy-peer-deps
@@ -91,11 +91,11 @@ npm run dev
 
 <!-- LICENSE -->
 
-## License
+<!--## License-->
 
-Distributed under the MIT license. See `LICENSE` for more information.
+<!--Distributed under the MIT license. See `LICENSE` for more information.-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
 <!-- CONTACT -->
 
